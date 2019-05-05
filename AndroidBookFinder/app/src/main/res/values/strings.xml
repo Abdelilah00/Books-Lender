@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Books Lender</string>
+    <string name="Will_Send_Code">We will be sending a confirmation code via SMS. Please input the CODE to activate your account</string>
+    <string name="title_activity_panel">Panel</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="just_a_few_details_to_get_you_started">Just a few details to get you started</string>
+    <string name="get_started">Get Started</string>
+    <string name="title_activity_choice">choice</string>
+</resources>

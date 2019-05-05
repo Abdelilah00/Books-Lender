@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/background"
+    android:foregroundGravity="center_vertical"
+    android:gravity="center_vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/toolbar_title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="213dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="52dp"
+            android:layout_toStartOf="@+id/btn_home"
+            android:background="@drawable/shape_title"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingTop="1dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="1dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/colorbyed"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/btn_home"
+            android:layout_width="40dp"
+            android:layout_height="41dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginEnd="3dp"
+            android:gravity="center_vertical"
+            android:onClick="clk_home"
+            app:srcCompat="@drawable/ic_home" />
+    </RelativeLayout>
+
+</RelativeLayout>
